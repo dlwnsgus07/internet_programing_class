@@ -1,0 +1,52 @@
+/*비디오 페이지 디자인 및 크기 조*/
+.video_player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin:10%;
+    flex-direction: column;
+}
+.player{
+    width: 500px;
+    height: 400px;
+}
+.explain,.title_info, .author_date{
+    display: flex;
+}
+
+.title_info, .author_date{
+    height: 100px;
+    flex-direction: column;
+    padding:4px;
+    margin: 10px;
+    border-radius: 8px 8px 8px 8px;
+    justify-content: space-around;
+    text-align: center;
+    border: solid 3px rgba(29, 28, 28, 0.664);
+}
+.title_info{
+    width: 500px;
+}
+.title{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.info{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.author, .date{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.video_reply{
+	color:white;
+	width:700px;
+	margin-top:20px;
+}
+.video_reply2{
+	margin-top:20px;
+	color:white;
+	width:700px;
+}

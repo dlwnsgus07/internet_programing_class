@@ -1,0 +1,28 @@
+/* 일반적인 main 페이제 나오는 객체들의 css 디자인 */
+.row{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.video{
+    padding-top: 10px;
+    width: 300px;
+    margin: 20px;
+}
+.title_author{
+    padding: 10px;
+    border: solid 3px rgba(29, 28, 28, 0.664);
+}
+.title{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.author{
+    color: rgb(173, 173, 173);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+body{
+	 color: white;
+}

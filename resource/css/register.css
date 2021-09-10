@@ -1,0 +1,49 @@
+
+/*영상을 등록할때 나오는 페이지를 디자인 한 부분*/
+.register_videoform{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 600px;
+}
+
+.r_label{
+text-align: center;
+color: white;
+}
+.video_title{
+height: 50px;
+}
+.register_title, .register_thumbnail, .register_video, .register_info, .register_btn .register_author{
+    margin: 50px;
+    align-items: center;
+}
+.info{
+    height: 100px;
+    text-align: start;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+.register_btn{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    border: 3px solid rgb(128, 125, 125);
+    border-radius: 8px 8px 8px 8px;
+}
+.btn{
+    background-color: rgb(128, 125, 125);
+    color: white;
+
+
+}
+.register_btn{
+    border: none;
+}
+.register_submit, .register_cancellation{
+    margin:5px
+}

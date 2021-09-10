@@ -1,0 +1,45 @@
+/*비디오 목록들을 나타내는 게시판 부분 디자인*/
+.board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    margin-top: 200px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+}
+.board_table, th, td{
+    color: white;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 2px solid white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.board_table{
+    text-align: center;
+}
+.tb_title{
+    width: 400px;
+}
+.tb_author{
+width: 100px;
+}
+.tb_register_date{
+    width: 200px;
+}
+.btn_modify{
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: none;
+}
+.new_delete{
+    margin-left: 800px;
+}
+.sidebar_icon{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
